@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\SDK">
+      <UniqueIdentifier>{535fc6dc-bf63-4126-9ffc-18991079ea8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Kernel">
+      <UniqueIdentifier>{8d648b8d-2713-4ad2-aaf4-bf82a453c164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Data">
+      <UniqueIdentifier>{d510c630-de8f-4670-8bf9-b7b03fb9063d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Mapper">
+      <UniqueIdentifier>{144320cd-6849-4580-86c2-3d989780eb5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FACE_Call.h">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="FACE_CRT.h">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CPL0_Mgr.h">
+      <Filter>Исходные файлы\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="InpOut_SDK.h">
+      <Filter>Исходные файлы\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="SvcMgr.h">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="StrCrypt.h">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Bytes.h">
+      <Filter>Исходные файлы\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="PDB_Parser.h">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Inject.h">
+      <Filter>Исходные файлы\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Исходные файлы\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Исходные файлы\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MEXFLEXER_v1.cpp">
+      <Filter>Исходные файлы\Mapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
